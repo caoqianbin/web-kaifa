@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
-import "./Todolist.css"
+import "../index.css"
 export default class Todoing extends Component {
     constructor(props){
         super(props);

@@ -25,9 +25,9 @@ export default class Todolist extends Component {
     componentDidMount(){
         //获取缓存的数据 
         var storage = localStorage;
-        if(storage.length != 0)
+        let todoList = localStorage.getItem("temp");
+        if(todoList)
         {
-            let todoList = localStorage.getItem("temp");
             let tododo = JSON.parse(todoList);
             // console.log(this.state.todo);
             // console.log(tododo.todo);
