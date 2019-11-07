@@ -71,7 +71,7 @@ export default class Topic extends Component {
                     <div>
                         {
                             [1,2,3,4,5,6,7,8,9,10].map((item)=>(
-                                <li key={item}><Link to={'/good/'+item} className="biao">{item}</Link></li>   
+                                <li key={item} ><Link to={'/good/'+item} className="biao">{item}</Link></li>   
                             ))
                         }
                         
